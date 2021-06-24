@@ -6,13 +6,19 @@
 	int main()
 	{
 	  int a[10],i,n;
-	  printf("Enter size of the array and the array elements");
+	  printf("Enter size of the array and the array elements\n");
 	  scanf("%d",&n);
 	  
-	  for(i=0;i<n;i++)
-	  scanf("%d",&a[]);//missing code
+	  for(i=0;i<n;i++){
+	  scanf("%d",&a[i]);//missing code
+	  }
 	  printf("Array elements in reverse order : ");
-	  for(i=;i;i) //missing code
+	  for(i=n-1;i>=0;i--) //missing code
 	  printf("%d ",a[i]);
 	  return(0);
 	}
+
+
+
+
+
